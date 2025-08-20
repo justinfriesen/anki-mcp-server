@@ -37,7 +37,32 @@ A Model Context Protocol (MCP) server that provides AI assistants with access to
 3. **Python 3.6+** - Required to run the server
 4. **Claude Desktop** - Download from [claude.ai](https://claude.ai/download)
 
-### Quick Setup
+### Minimal Installation (Easiest)
+
+1. **Download just the server file:**
+   ```bash
+   curl -O https://raw.githubusercontent.com/justinfriesen/anki-mcp-server/main/anki_mcp_server.py
+   ```
+   Or manually download `anki_mcp_server.py` from the repository.
+
+2. **Configure Claude Desktop:**
+   
+   Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows):
+   
+   ```json
+   {
+     "mcpServers": {
+       "anki": {
+         "command": "python3",
+         "args": ["/path/to/anki_mcp_server.py"]
+       }
+     }
+   }
+   ```
+
+3. **Restart Claude Desktop** - That's it! 🎉
+
+### Full Setup (Recommended for developers)
 
 1. **Clone this repository:**
    ```bash
