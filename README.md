@@ -41,7 +41,7 @@ A Model Context Protocol (MCP) server that provides AI assistants with access to
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/anki-mcp-server.git
+   git clone https://github.com/justinfriesen/anki-mcp-server.git
    cd anki-mcp-server
    ```
 
