@@ -109,6 +109,11 @@ Once connected, an AI assistant can:
 4. **Get deck statistics:**
    "How many cards are due for review in my Default deck?"
 
+5. **Help with the card you're reviewing:**
+   "What's the card I'm looking at?" (shows current card)
+   "Can you explain this concept in more detail?" (Claude sees your card and provides explanation)
+   "Give me a mnemonic to remember this answer"
+
 ## Protocol Details
 
 This server implements MCP protocol version 2025-06-18 with:
