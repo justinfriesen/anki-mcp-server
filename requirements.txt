@@ -1,0 +1,5 @@
+# Optional - server works without this using urllib fallback
+requests>=2.28.0
+
+# For development/testing
+pytest>=7.0.0

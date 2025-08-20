@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "anki": {
+      "command": "python3",
+      "args": ["/Users/yourusername/anki-mcp-server/anki_mcp_server.py"]
+    }
+  }
+}
